@@ -1,0 +1,1 @@
+a = document.getElementsByClassName("uiMediaThumbImg");l = [];for(i=0;i<a.length;i++){s = a[i].style.background.replace("url(","");l.push(s.slice(0,s.length-1))};document.write(JSON.stringify(l))
